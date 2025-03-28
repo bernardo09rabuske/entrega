@@ -28,7 +28,7 @@
 
 
 
-// function aplicaçãodeDesconto(){
+// function aplicaçãodedesconto(){
 //     let valorProduto = parseFloat(prompt("Digite o valor do produto em reais"))
 
 // let desconto = valorProduto * 0.09
@@ -40,7 +40,7 @@
 
 // }
 
-// aplicaçãodeDesconto();
+// aplicaçãodedesconto();
 
 
 
@@ -105,18 +105,18 @@ function conta() {
         return;
     }
     let inverteNumero = numeroConta //invertido
-    let soma = inverteNumero + numeroConta
+    for(let i =0;i<inverteNumero.length;i++);
+    let soma = parseInt(inverteNumero) + parseInt(numeroConta)
     
-    let somaString = "757"
+    let somaString = String(soma)
     let somaAux = 0
     for(let i = 0; i<somaString.length;i++){
         somaAux += parseInt(somaString[i]*(i+1))
-        String()
     }   
-    somaAux = 40
-    let somaAuxString = "40"
+    let somaAuxString = String(soma)
     let verificador = somaAuxString[somaAuxString.length-1]
-
+    
+    console.log(`O número de acesso da sua conta é :  ${verificador}`)
 }
-conta()
 
+conta();
