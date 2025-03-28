@@ -99,7 +99,7 @@ function conta() {
     
     let numeroConta = prompt("Digite o número da conta corrente de 3 dígitos: ");
     
-    
+    //alteracao
     if (numeroConta.length !== 3) {
         console.log("Insira um número de conta corrente com exatamente 3 dígitos.");
         return;
